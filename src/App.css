@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+  background-color: #000;
+  height: 100vh;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+body {
+  font-family: "Courier New";
+}
+
+.proj-media {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.name {
+  padding: 40px 40px 10px 40px;
+  font-size: 50px;
+  color: white;
+}
+
+.project-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  margin-bottom: 64px;
+  /* margin-top: 24px; */
+  padding-right: 88px;
+  padding-left: 88px;
+  /* position: absolute; */
+  /* height: 100%; */
+  bottom: 0;
+}
+
+.project-link-left {
+  margin-left: 256px;
+}
+
+.project-link-right {
+  margin-right: 256px;
+}
+
+.project-link-spacer {
+  height: 24px;
+}
+
+.carousel-things {
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.carousel {
+  /* height: 100vh; */
+}
+
+.carousel-inner {
+  /* height: 100vh; */
+}
+
+.carousel-item {
+  /* height: 100vh */
+}
+
+/* .carousel-item {
+  width: 100%;
+} */
+
+.project-spacer {
+  height: 25px;
+}
+
+/* .project-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+} */
+
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  font-size: 40px;
+}
+
+.project-data {
+  display: flex;
+  /* position: absolute; */
+  bottom: 0;
+  justify-content: center;
+  flex-direction: column;
+  margin: 12px;
+}
+
+/* .no-links {
+  padding-top: 32px;
+} */
+
+.project-link-center {
+  margin-left: 36px;
+}
+
+.project-link-section {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
