@@ -1,6 +1,7 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
 import ReactPlayer from "react-player";
+import EtherealSite from "../media/ethereal_site.png";
 
 export default function BootstrapCarousel() {
   return (
@@ -68,20 +69,35 @@ export default function BootstrapCarousel() {
             </Carousel.Caption>
           </div>
         </Carousel.Item>
-        {/* <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
-            alt="Third slide"
-          />
+        <Carousel.Item class="carousel-things">
+          <div class="row">
+            <img class="project-image" src={EtherealSite} />
+          </div>
 
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item> */}
+          <div>
+            <Carousel.Caption class="row project-desc">
+              <h3 class="row project-title image-title">Ethereal Art</h3>
+              <p class="row project-data">
+                Developer and Community Manager for Ethereal Art, a collection
+                of 10,000 NFT's on the Ethereum Network. Assisted in
+                art/metadata generation and front end development. Managed
+                discord server with 120,000+ members.
+              </p>
+              <div class="image-link-section">
+                <a class="image-link-left" href="https://etherealartnft.com/">
+                  Ethereal Art Website
+                </a>
+
+                <a
+                  class="image-link-right"
+                  href="https://opensea.io/collection/ethereal-art-ladowska"
+                >
+                  Ethereal Art on Opensea
+                </a>
+              </div>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
       </Carousel>
     </div>
   );

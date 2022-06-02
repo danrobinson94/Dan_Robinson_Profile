@@ -56,12 +56,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  margin-bottom: 64px;
-  /* margin-top: 24px; */
+  margin-bottom: 52px;
   padding-right: 88px;
   padding-left: 88px;
-  /* position: absolute; */
-  /* height: 100%; */
   bottom: 0;
 }
 
@@ -79,38 +76,20 @@ body {
 
 .carousel-things {
   width: 100%;
-  /* height: 100vh; */
 }
 
 .carousel {
-  /* height: 100vh; */
 }
 
 .carousel-inner {
-  /* height: 100vh; */
 }
 
 .carousel-item {
-  /* height: 100vh */
 }
-
-/* .carousel-item {
-  width: 100%;
-} */
 
 .project-spacer {
   height: 25px;
 }
-
-/* .project-desc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 30px;
-} */
 
 .project-title {
   display: flex;
@@ -125,16 +104,22 @@ body {
 
 .project-data {
   display: flex;
-  /* position: absolute; */
   bottom: 0;
   justify-content: center;
   flex-direction: column;
   margin: 12px;
 }
 
-/* .no-links {
-  padding-top: 32px;
-} */
+.project-image {
+}
+
+img {
+  display: block;
+  max-width: 700px !important;
+  height: 420px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .project-link-center {
   margin-left: 36px;
@@ -144,8 +129,22 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  /* align-items: center; */
   justify-content: space-between;
+}
+
+.image-link-section {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.image-link-left {
+  margin-right: 40px;
+}
+.image-link-right {
+  margin-left: 40px;
 }
 
 @keyframes App-logo-spin {
