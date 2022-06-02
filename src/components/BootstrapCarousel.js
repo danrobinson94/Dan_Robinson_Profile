@@ -79,9 +79,9 @@ export default function BootstrapCarousel() {
               <h3 class="row project-title image-title">Ethereal Art</h3>
               <p class="row project-data">
                 Developer and Community Manager for Ethereal Art, a collection
-                of 10,000 NFT's on the Ethereum Network. Assisted in
-                art/metadata generation and front end development. Managed
-                discord server with 120,000+ members.
+                of 7,777 NFT's on the Ethereum Network. Assisted in art/metadata
+                generation and front end development. Managed discord server
+                with 120,000+ members.
               </p>
               <div class="image-link-section">
                 <a class="image-link-left" href="https://etherealartnft.com/">
