@@ -22,7 +22,8 @@ export default function BootstrapCarousel() {
               <p class="project-data no-links">
                 Built in Node with Puppeteer. Logs in to Metamask Chrome
                 extension. Creates offers on NFT's based on user's collection
-                and property filtering inputs
+                and property filtering inputs, and keeps track of competing
+                offers to automatically outbid them if within user parameters.
               </p>
               <div class="project-link-spacer" />
             </Carousel.Caption>
@@ -95,6 +96,31 @@ export default function BootstrapCarousel() {
                   Ethereal Art on Opensea
                 </a>
               </div>
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div class="row">
+            <ReactPlayer
+              class="proj-media"
+              url="https://player.vimeo.com/video/717412019?h=98b2a87347"
+              height="420px"
+              width="750px"
+            />
+          </div>
+          <div>
+            <Carousel.Caption class="row project-desc">
+              <h3 class="project-title">Go Go Gadget Blockchain</h3>
+              <p class="project-data no-links">
+                World's most simple blockchain, built in Go
+              </p>
+              <a
+                class="image-link-center"
+                href="https://github.com/danrobinson94/Go_Go_Gadget_Blockchain/tree/main"
+              >
+                View the Repo
+              </a>
+              <div class="project-link-spacer" />
             </Carousel.Caption>
           </div>
         </Carousel.Item>
