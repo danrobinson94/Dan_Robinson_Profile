@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #000;
   height: 100vh;
+  overflow: auto;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
@@ -145,6 +146,12 @@ img {
 }
 .image-link-right {
   margin-left: 40px;
+}
+
+@media (min-width: 1554px) {
+  .optional-spacer {
+    height: 24px;
+  }
 }
 
 @keyframes App-logo-spin {

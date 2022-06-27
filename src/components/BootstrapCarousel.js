@@ -47,6 +47,7 @@ export default function BootstrapCarousel() {
                 Node. Minting Dapp built in React. Metadata hosted on IPFS,
                 images hosted on AWS.
               </p>
+              <div class="optional-spacer" />
               <div class="project-link-section">
                 <a
                   class="project-link-left"
