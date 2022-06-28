@@ -63,14 +63,6 @@ body {
   bottom: 0;
 }
 
-.project-link-left {
-  margin-left: 256px;
-}
-
-.project-link-right {
-  margin-right: 256px;
-}
-
 .project-link-spacer {
   height: 24px;
 }
@@ -131,6 +123,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+  width: 750px;
 }
 
 .image-link-section {
@@ -139,6 +132,12 @@ img {
   margin-right: auto;
   justify-content: center;
   margin-left: 30px;
+}
+
+@media (max-width: 550px) {
+  .image-link-section {
+    margin-left: 0px;
+  }
 }
 
 .image-link-left {
