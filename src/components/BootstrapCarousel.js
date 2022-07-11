@@ -25,7 +25,10 @@ export default function BootstrapCarousel() {
                 and property filtering inputs, and keeps track of competing
                 offers to automatically outbid them if within user parameters.
               </p>
-              <div class="project-link-spacer" />
+              <a href="https://github.com/danrobinson94/rich_ape_bot_club">
+                View the repo
+              </a>
+              {/* <div class="bot-link-spacer" /> */}
             </Carousel.Caption>
           </div>
         </Carousel.Item>
@@ -47,7 +50,7 @@ export default function BootstrapCarousel() {
                 Node. Minting Dapp built in React. Metadata hosted on IPFS,
                 images hosted on AWS.
               </p>
-              <div class="optional-spacer" />
+              {/* <div class="optional-spacer" /> */}
               <div class="project-link-section">
                 <a
                   class="project-link-left"
@@ -68,6 +71,7 @@ export default function BootstrapCarousel() {
                   NFsTripes on Opensea
                 </a>
               </div>
+              {/* <div class="project-link-spacer" /> */}
             </Carousel.Caption>
           </div>
         </Carousel.Item>
@@ -85,6 +89,7 @@ export default function BootstrapCarousel() {
                 front end development. Managed discord server with 120,000+
                 members.
               </p>
+
               <div class="image-link-section">
                 <a class="image-link-left" href="https://etherealartnft.com/">
                   Ethereal Art Website
@@ -97,6 +102,7 @@ export default function BootstrapCarousel() {
                   Ethereal Art on Opensea
                 </a>
               </div>
+              {/* <div class="project-link-spacer" /> */}
             </Carousel.Caption>
           </div>
         </Carousel.Item>
@@ -121,7 +127,7 @@ export default function BootstrapCarousel() {
               >
                 View the Repo
               </a>
-              <div class="project-link-spacer" />
+              {/* <div class="project-link-spacer" /> */}
             </Carousel.Caption>
           </div>
         </Carousel.Item>
