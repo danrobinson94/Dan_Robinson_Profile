@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import ReactPlayer from "react-player";
 import EtherealSite from "../media/ethereal_site.png";
+import Wordle from "../media/gordle.png";
 
 export default function BootstrapCarousel() {
   return (
@@ -102,6 +103,27 @@ export default function BootstrapCarousel() {
                   Ethereal Art on Opensea
                 </a>
               </div>
+              {/* <div class="project-link-spacer" /> */}
+            </Carousel.Caption>
+          </div>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div class="row">
+            <img class="project-image" src={Wordle} />
+          </div>
+          <div>
+            <Carousel.Caption class="row project-desc">
+              <h3 class="project-title">Gordle</h3>
+              <p class="project-data no-links">
+                A Wordle game clone built in GoLang. A little sassy - will play
+                good cop/bad cop with you.
+              </p>
+              <a
+                class="image-link-center"
+                href="https://github.com/danrobinson94/Gordle"
+              >
+                View the Repo
+              </a>
               {/* <div class="project-link-spacer" /> */}
             </Carousel.Caption>
           </div>
